@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activityRootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8FBC8F"
+    tools:ignore="ExtraText">
+
+    <Button
+        android:id="@+id/backHomeButton24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFF99"
+        android:text="Home"
+        android:textColor="@color/black"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/backButton19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFF99"
+        android:text="Back"
+        android:textColor="@color/black"
+        android:textSize="19sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textViewLondonDry"
+        android:layout_width="50dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="2dp"
+        android:background="#D2B48C"
+        android:gravity="center"
+        android:text="C\n\O\n\U\n\R\n\V\n\O\n\I\n\S\n\E\n\R\n\n\X\n\O"
+        android:textSize="13sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/backButton19"
+        tools:ignore="HardcodedText,SmallSp,TextSizeCheck" />
+
+
+    <EditText
+        android:id="@+id/editTextText44"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:hint="0"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:background="#333333"
+        android:digits="0123456789"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="phone"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewLondonDry"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewSicilian"
+        android:layout_width="50dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="49dp"
+        android:background="#D2B48C"
+        android:gravity="center"
+        android:text="K\n\V\n\I\n\N\n\T\n\n\V\n\S\n\O\n\P"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/textViewPink"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText45"
+        tools:ignore="HardcodedText,SmallSp,TextSizeCheck" />
+
+
+    <EditText
+        android:id="@+id/editTextText49"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:hint="0"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="10dp"
+        android:background="#333333"
+        android:digits="0123456789"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="phone"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/editTextText48"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSicilian"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewPink"
+        android:layout_width="50dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="49dp"
+        android:background="#D2B48C"
+        android:gravity="center"
+        android:text="K\n\V\n\I\n\N\n\T\n\n\X\n\O"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText44"
+        tools:ignore="HardcodedText,SmallSp" />
+
+
+    <EditText
+        android:id="@+id/editTextText48"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:hint="0"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="10dp"
+        android:background="#333333"
+        android:digits="0123456789"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="phone"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPink"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewMediterranean"
+        android:layout_width="50dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="49dp"
+        android:background="#D2B48C"
+        android:gravity="center"
+        android:text="G\n\R\n\A\n\N\n\D\n\n\M\n\A\n\R\n\N\n\I\n\E\n\R"
+        android:textSize="11sp"
+        app:layout_constraintStart_toEndOf="@+id/textViewSicilian"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText46"
+        tools:ignore="HardcodedText,SmallSp,TextSizeCheck" />
+
+    <EditText
+        android:id="@+id/editTextText50"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:hint="0"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="10dp"
+        android:background="#333333"
+        android:digits="0123456789"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="phone"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/editTextText49"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMediterranean"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewRoyale"
+        android:layout_width="50dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="50dp"
+        android:background="#D2B48C"
+        android:gravity="center"
+        android:text="C\n\O\n\U\n\R\n\V\n\O\n\I\n\S\n\E\n\R\n\n\V\n\S"
+        android:textSize="13sp"
+        app:layout_constraintStart_toEndOf="@+id/textViewLondonDry"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,SmallSp,TextSizeCheck" />
+
+
+    <EditText
+        android:id="@+id/editTextText45"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:hint="0"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="10dp"
+        android:background="#333333"
+        android:digits="0123456789"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="phone"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/editTextText44"
+        app:layout_constraintTop_toBottomOf="@+id/textViewRoyale"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewRangpur"
+        android:layout_width="50dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="7dp"
+        android:background="#D2B48C"
+        android:gravity="center"
+        android:text="M\n\E\n\T\n\A\n\X\n\A\n\n\7*"
+        android:textSize="13sp"
+        app:layout_constraintStart_toEndOf="@+id/textViewFlorDeSev"
+        app:layout_constraintTop_toBottomOf="@+id/backHomeButton24"
+        tools:ignore="HardcodedText,SmallSp,TextSizeCheck,TextSizeCheck" />
+
+    <EditText
+        android:id="@+id/editTextText47"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:hint="0"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="10dp"
+        android:background="#333333"
+        android:digits="0123456789"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="phone"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/editTextText46"
+        app:layout_constraintTop_toBottomOf="@+id/textViewRangpur"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewFlorDeSev"
+        android:layout_width="50dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="50dp"
+        android:background="#D2B48C"
+        android:gravity="center"
+        android:text="C\n\O\n\U\n\R\n\V\n\O\n\I\n\S\n\E\n\R\n\n\V\n\S\n\O\n\P"
+        android:textSize="11sp"
+        app:layout_constraintStart_toEndOf="@+id/textViewRoyale"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,SmallSp,TextSizeCheck" />
+
+
+    <EditText
+        android:id="@+id/editTextText46"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:hint="0"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="10dp"
+        android:background="#333333"
+        android:digits="0123456789"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="phone"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/editTextText45"
+        app:layout_constraintTop_toBottomOf="@+id/textViewFlorDeSev"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

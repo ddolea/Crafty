@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activityRootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8FBC8F"
+    tools:ignore="ExtraText">
+
+    <Button
+        android:id="@+id/backHomeButton22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFF99"
+        android:text="Home"
+        android:textColor="@color/black"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/backButton17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFF99"
+        android:text="Back"
+        android:textColor="@color/black"
+        android:textSize="19sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/buttonClearDataP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="47dp"
+        android:backgroundTint="@color/design_default_color_secondary_variant"
+        android:onClick="clearUserData"
+        android:text="Delete this"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/backButton17"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textViewPeroniPR"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:background="#DAA520"
+        android:gravity="center"
+        android:text="Pepsi 0.250 sticla"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/backButton17"
+        tools:ignore="HardcodedText,SmallSp,TextSizeCheck,TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/editTextText162"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:hint="0"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:background="#333333"
+        android:digits="0123456789"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="phone"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/textViewPeroniPR"
+        app:layout_constraintTop_toBottomOf="@+id/buttonClearDataP"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewFloriKozelPremium"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="20dp"
+        android:background="#DAA520"
+        android:gravity="center"
+        android:text="Rockstar 0.250 ml Doza"
+        android:textSize="10sp"
+        app:layout_constraintStart_toEndOf="@+id/editTextText164"
+        app:layout_constraintTop_toBottomOf="@+id/textViewUrsusNA"
+        tools:ignore="HardcodedText,SmallSp,TextSizeCheck,TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/editTextText171"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:hint="0"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="5dp"
+        android:background="#333333"
+        android:digits="0123456789"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="phone"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText170"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewKozelDark1"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="20dp"
+        android:background="#DAA520"
+        android:gravity="center"
+        android:text="Prigat Kiwi 0.250 sticla"
+        android:textSize="10sp"
+        app:layout_constraintStart_toEndOf="@+id/editTextText165"
+        app:layout_constraintTop_toBottomOf="@+id/textViewFloriKozelPremium"
+        tools:ignore="HardcodedText,SmallSp,TextSizeCheck,TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/editTextText172"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:hint="0"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="5dp"
+        android:background="#333333"
+        android:digits="0123456789"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="phone"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText171"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewKetelOne"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="20dp"
+        android:background="#DAA520"
+        android:gravity="center"
+        android:text="Prigat Capsune si Banane 0.250 sticla"
+        android:textSize="10sp"
+        app:layout_constraintStart_toEndOf="@+id/editTextText166"
+        app:layout_constraintTop_toBottomOf="@+id/textViewKozelDark1"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/editTextText173"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:hint="0"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="5dp"
+        android:background="#333333"
+        android:digits="0123456789"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="phone"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText172"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewKozelDark"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="20dp"
+        android:background="#DAA520"
+        android:gravity="center"
+        android:text="Lipton 0.250 sticla"
+        android:textSize="10sp"
+        app:layout_constraintStart_toEndOf="@+id/editTextText168"
+        app:layout_constraintTop_toBottomOf="@+id/textViewKozelDark3"
+        tools:ignore="HardcodedText,SmallSp,TextSizeCheck,TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/editTextText175"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:hint="0"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="5dp"
+        android:background="#333333"
+        android:digits="0123456789"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="phone"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText174"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/editTextText176"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="33dp"
+        android:background="#333333"
+        android:digits="0123456789"
+        android:ems="10"
+        android:hint="0"
+        android:gravity="center"
+        android:inputType="phone"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/textViewLichida"
+        app:layout_constraintTop_toBottomOf="@+id/textViewKozelDark"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewLichida"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="33dp"
+        android:background="#DAA520"
+        android:gravity="center"
+        android:text="Evervess 0.250 sticla"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewKozelDark"
+        tools:ignore="HardcodedText,SmallSp,TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/textViewKozelDark3"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="20dp"
+        android:background="#DAA520"
+        android:gravity="center"
+        android:text="Prigat Piersica 0.250 sticla"
+        android:textSize="10sp"
+        app:layout_constraintStart_toEndOf="@+id/editTextText167"
+        app:layout_constraintTop_toBottomOf="@+id/textViewKetelOne"
+        tools:ignore="HardcodedText,SmallSp,TextSizeCheck,TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/editTextText174"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:hint="0"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="5dp"
+        android:background="#333333"
+        android:digits="0123456789"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="phone"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText173"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewUrsusPremium"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="20dp"
+        android:background="#DAA520"
+        android:gravity="center"
+        android:text="Acqua Carpatica Minerala 0.330 sticla"
+        android:textSize="8sp"
+        app:layout_constraintStart_toEndOf="@+id/editTextText162"
+        app:layout_constraintTop_toBottomOf="@+id/backHomeButton22"
+        tools:ignore="HardcodedText,SmallSp,TextSizeCheck,TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/editTextText169"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:hint="0"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="5dp"
+        android:background="#333333"
+        android:digits="0123456789"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="phone"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/backHomeButton22"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewUrsusNA"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="20dp"
+        android:background="#DAA520"
+        android:gravity="center"
+        android:text="Acqua Carpatica Plata 1.5 L Pet "
+        android:textSize="6sp"
+        app:layout_constraintStart_toEndOf="@+id/editTextText163"
+        app:layout_constraintTop_toBottomOf="@+id/textViewUrsusPremium"
+        tools:ignore="HardcodedText,SmallSp,TextSizeCheck,TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/editTextText170"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:hint="0"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="5dp"
+        android:background="#333333"
+        android:digits="0123456789"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="phone"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText169"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewPeroniNA"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:background="#DAA520"
+        android:gravity="center"
+        android:text="Pepsi Max 0.250 sticla"
+        android:textSize="8sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPeroniPR"
+        tools:ignore="HardcodedText,SmallSp,TextSizeCheck,TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/editTextText163"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:hint="0"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:background="#333333"
+        android:digits="0123456789"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="phone"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/textViewPeroniNA"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText162"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck" />
+
+    <TextView
+        android:id="@+id/textViewPeroniDraught"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:background="#DAA520"
+        android:gravity="center"
+        android:text="Mirinda 0.250 sticla"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewCapriz"
+        tools:ignore="HardcodedText,SmallSp,TextSizeCheck,TextSizeCheck,TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/editTextText166"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:hint="0"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:background="#333333"
+        android:digits="0123456789"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="phone"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/textViewPeroniDraught"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText165"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck" />
+
+    <TextView
+        android:id="@+id/textViewCapri"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:background="#DAA520"
+        android:gravity="center"
+        android:text="Pepsi Twist 0.250 sticla"
+        android:textSize="8sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPeroniNA"
+        tools:ignore="HardcodedText,SmallSp,TextSizeCheck,TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/editTextText164"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:background="#333333"
+        android:digits="0123456789"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="0"
+        android:inputType="phone"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/textViewCapri"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText163"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textViewCapriz"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:background="#DAA520"
+        android:gravity="center"
+        android:text="Pepsi Vintage 0.250 sticla"
+        android:textSize="8sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewCapri"
+        tools:ignore="HardcodedText,SmallSp,TextSizeCheck,TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/editTextText165"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:hint="0"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:background="#333333"
+        android:digits="0123456789"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="phone"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/textViewCapriz"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText164"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewAzugaNepasteurizata"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:background="#DAA520"
+        android:gravity="center"
+        android:text="Acqua carpatica plata 0.330 sticla"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewAzugaNefiltrata"
+        tools:ignore="HardcodedText,SmallSp,TextSizeCheck,TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/editTextText168"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:hint="0"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:background="#333333"
+        android:digits="0123456789"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="phone"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/textViewAzugaNepasteurizata"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText167"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewAzugaNefiltrata"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:background="#DAA520"
+        android:gravity="center"
+        android:text="7 Up 0.250 sticla"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPeroniDraught"
+        tools:ignore="HardcodedText,SmallSp,TextSizeCheck,TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/editTextText167"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:hint="0"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:background="#333333"
+        android:digits="0123456789"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="phone"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/textViewAzugaNefiltrata"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText166"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

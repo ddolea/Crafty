@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.plict6"
+        tools:targetApi="31">
+        <activity
+            android:name="Crafty.example.plict6.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="Crafty.example.plict6.ActivitatiPrincipale.lamai"/>
+        <activity android:name="Crafty.example.plict6.ActivitatiPrincipale.grosbi"/>
+        <activity android:name="Crafty.example.plict6.ActivitatiPrincipale.vinuri"/>
+        <activity android:name="Crafty.example.plict6.ActivitatiPrincipale.pepsi"/>
+        <activity android:name="Crafty.example.plict6.ActivitatiSecundareGrosbi.ActivityG0" />
+        <activity android:name="Crafty.example.plict6.ActivitatiSecundareGrosbi.ActivityG1" />
+        <activity android:name="Crafty.example.plict6.ActivitatiSecundareGrosbi.ActivityG2" />
+        <activity android:name="Crafty.example.plict6.ActivitatiSecundareGrosbi.ActivityG3" />
+        <activity android:name="Crafty.example.plict6.ActivitatiSecundareGrosbi.ActivityG4" />
+        <activity android:name="Crafty.example.plict6.ActivitatiSecundareGrosbi.ActivityG5" />
+        <activity android:name="Crafty.example.plict6.ActivitatiSecundareGrosbi.ActivityG6" />
+        <activity android:name="Crafty.example.plict6.ActivitatiSecundareGrosbi.ActivityG7" />
+        <activity android:name="Crafty.example.plict6.ActivitatiSecundareGrosbi.ActivityG8" />
+        <activity android:name="Crafty.example.plict6.ActivitatiSecundareGrosbi.ActivityG9" />
+        <activity android:name="Crafty.example.plict6.ActivitatiSecundareGrosbi.ActivityG10" />
+        <activity android:name="Crafty.example.plict6.ActivitatiSecundareGrosbi.ActivityG11" />
+        <activity android:name="Crafty.example.plict6.ActivitatiSecundareGrosbi.ActivityG12" />
+        <activity android:name="Crafty.example.plict6.ActivitatiSecundareGrosbi.ActivityG13" />
+        <activity android:name="Crafty.example.plict6.ActivitatiSecundareGrosbi.ActivityG14" />
+        <activity android:name="Crafty.example.plict6.ActivitatiSecundareGrosbi.ActivityG15" />
+        <activity android:name="Crafty.example.plict6.ActivitatiSecundareGrosbi.ActivityG16" />
+        <activity android:name="Crafty.example.plict6.ActivitatiSecundareGrosbi.ActivityG17" />
+        <activity android:name="Crafty.example.plict6.ActivitatiSecundareGrosbi.ActivityG18" />
+        <activity android:name="Crafty.example.plict6.ActivitatiSecundareGrosbi.ActivityG19" />
+        <activity android:name=".ActivitatiSecundareGrosbi.ActivityG20" />
+        <activity android:name="Crafty.example.plict6.ActivitatiSecundareGrosbi.ActivityG21" />
+        <activity android:name="Crafty.example.plict6.ActivitatiSecundareGrosbi.Activity22" />
+        <activity android:name="Crafty.example.plict6.ActivitatiSecundareVinuri.ActivityV0" />
+        <activity android:name="Crafty.example.plict6.ActivitatiSecundareVinuri.ActivityV1" />
+        <activity android:name="Crafty.example.plict6.ActivitatiSecundareVinuri.ActivityV2" />
+        <activity android:name="Crafty.example.plict6.ActivitatiSecundareVinuri.ActivityV3" />
+        <activity android:name="Crafty.example.plict6.ActivitatiSecundareVinuri.ActivityV4" />
+        <activity android:name="Crafty.example.plict6.ActivitatiSecundareVinuri.ActivityV5" />
+        <activity android:name="Crafty.example.plict6.ActivitatiSecundareVinuri.ActivityV6" />
+        <activity android:name="Crafty.example.plict6.ActivitatiSecundareVinuri.ActivityV7" />
+        <activity android:name="Crafty.example.plict6.ActivitatiSecundareVinuri.ActivityV8" />
+        <activity android:name="Crafty.example.plict6.ActivitatiSecundareVinuri.ActivityV9" />
+        <activity android:name="Crafty.example.plict6.ActivitatiSecundareLamai.IntentL0" />
+        <activity android:name="Crafty.example.plict6.ActivitatiSecundareLamai.IntentL1" />
+        <activity android:name="Crafty.example.plict6.ActivitatiSecundareLamai.IntentL2" />
+        <activity android:name="Crafty.example.plict6.ActivitatiSecundareLamai.IntentL3" />
+        <activity android:name="Crafty.example.plict6.ActivitatiSecundareLamai.IntentL4" />
+        <activity android:name=".ActivitatiSecundareLamai.IntentL5" />
+        <activity android:name=".ActivitatiPrincipale.ResultActivity" />
+        <activity android:name="Crafty.example.plict6.ActivitatiPrincipale.Calculator" />
+        <activity android:name=".ActivitatiPrincipale.SharedPrefsHelper" />
+        <activity android:name=".Recyclers.MainActivity" />
+        <activity android:name="Crafty.example.plict6.ActivitatiPrincipale.Finishing"/>
+        <activity android:name="Crafty.example.plict6.ActivitatiPrincipale.ResultActivityGrosbi"/>
+        <activity android:name="Crafty.example.plict6.ActivitatiPrincipale.ResultActivityNecesar"/>
+        <activity android:name="Crafty.example.plict6.ActivitatiPrincipale.ResultActivityVinuri"/>
+        <activity android:name="Crafty.example.plict6.ActivitatiPrincipale.ResultActivityPepsi"/>
+
+
+
+    </application>
+
+</manifest>

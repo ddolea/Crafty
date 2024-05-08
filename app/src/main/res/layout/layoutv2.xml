@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activityRootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8FBC8F">
+    <Button
+        android:id="@+id/backHomeButton33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFF99"
+        android:text="Home"
+        android:textColor="@color/black"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/backButton15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFF99"
+        android:text="Back"
+        android:textColor="@color/black"
+        android:textSize="19sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textViewTamaioasa"
+        android:layout_width="110dp"
+        android:layout_height="225dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="50dp"
+        android:background="#F0E68C"
+        android:gravity="center"
+        android:text="N\n\A\n\I\n\V\n\n\T\n\n\R\n\O"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextText142"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="10dp"
+        android:background="#333333"
+        android:digits="0123456789"
+        android:hint="0"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="phone"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTamaioasa"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewBusuioaca"
+        android:layout_width="110dp"
+        android:layout_height="225dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="360dp"
+        android:background="#F0E68C"
+        android:gravity="center"
+        android:text="B\n\U\n\S\n\U\n\I\n\O\n\A\n\C\n\A"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextText143"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="10dp"
+        android:hint="0"
+        android:background="#333333"
+        android:digits="0123456789"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="phone"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewBusuioaca"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activityRootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8FBC8F">
+
+    <Button
+        android:id="@+id/backHomeButton40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFF99"
+        android:text="Home"
+        android:textColor="@color/black"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/backButton99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#FFFF99"
+        android:text="Back"
+        android:textColor="@color/black"
+        android:textSize="19sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewChardonnay"
+        android:layout_width="110dp"
+        android:layout_height="225dp"
+        android:layout_marginStart="80dp"
+        android:background="#F0E68C"
+        android:gravity="center"
+        android:text="CABERNET\n\MERLOT\n\n\R\n\O\n\S\n\E"
+        android:textSize="17sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/backButton99" />
+
+    <EditText
+        android:id="@+id/editTextText156"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:hint="0"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="10dp"
+        android:background="#333333"
+        android:digits="0123456789"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="phone"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewChardonnay"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewRose"
+        android:layout_width="110dp"
+        android:layout_height="225dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="80dp"
+        android:background="#F0E68C"
+        android:gravity="center"
+        android:text="PINOT GRIS\n\n\C\n\H\n\A\n\R\n\D\n\O\n\N\n\N\n\A\n\Y"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/backHomeButton40" />
+
+    <EditText
+        android:id="@+id/editTextText157"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:hint="0"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="80dp"
+        android:background="#333333"
+        android:digits="0123456789"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="phone"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewRose"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewRaraNeagraa"
+        android:layout_width="110dp"
+        android:layout_height="225dp"
+        android:layout_marginTop="368dp"
+        android:layout_marginEnd="80dp"
+        android:background="#F0E68C"
+        android:gravity="center"
+        android:text="R\n\O\n\S\n\E"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextText159"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:hint="0"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="80dp"
+        android:background="#333333"
+        android:digits="0123456789"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="phone"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewRaraNeagraa"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewRaraNeagra"
+        android:layout_width="110dp"
+        android:layout_height="225dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="21dp"
+        android:background="#F0E68C"
+        android:gravity="center"
+        android:text="RARA NEAGRA\n\n\MALBEC\n\n\SYRAH"
+        android:textSize="13sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText156" />
+
+    <EditText
+        android:id="@+id/editTextText158"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:hint="0"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="10dp"
+        android:background="#333333"
+        android:digits="0123456789"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="phone"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewRaraNeagra"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

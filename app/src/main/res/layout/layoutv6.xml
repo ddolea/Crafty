@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activityRootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8FBC8F">
+
+    <Button
+        android:id="@+id/backHomeButton32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFF99"
+        android:text="Home"
+        android:textColor="@color/black"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/backButton10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="221dp"
+        android:backgroundTint="#FFFF99"
+        android:text="Back"
+        android:textColor="@color/black"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toStartOf="@+id/backHomeButton32"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewChardonnay"
+        android:layout_width="110dp"
+        android:layout_height="225dp"
+        android:layout_marginStart="139dp"
+        android:layout_marginTop="48dp"
+        android:background="#F0E68C"
+        android:gravity="center"
+        android:text="C\n\H\n\A\n\T\n\E\n\U\n\n\V\n\A\n\R\n\T\n\E\n\L\n\Y"
+        android:textSize="13sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextText150"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:hint="0"
+        android:layout_marginStart="139dp"
+        android:layout_marginTop="10dp"
+        android:background="#333333"
+        android:digits="0123456789"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="phone"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewChardonnay"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewRose"
+        android:layout_width="110dp"
+        android:layout_height="225dp"
+        android:layout_marginStart="139dp"
+        android:layout_marginTop="20dp"
+        android:background="#F0E68C"
+        android:gravity="center"
+        android:text="CHATEU VARTELY\n\n\C\n\H\n\A\n\R\n\D\n\O\n\N\n\N\n\A\n\Y"
+        android:textSize="13sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText150" />
+
+    <EditText
+        android:id="@+id/editTextText151"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:hint="0"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="12dp"
+        android:background="#333333"
+        android:digits="0123456789"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="phone"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewRose"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

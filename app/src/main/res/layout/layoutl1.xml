@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activityRootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8FBC8F">
+    <Button
+        android:id="@+id/backButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFF99"
+        android:text="Back"
+        android:textColor="@color/black"
+        android:textSize="19sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/backHomeButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFF99"
+        android:text="Home"
+        android:textColor="@color/black"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/textViewLamai"
+        android:layout_width="110dp"
+        android:layout_height="225dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="55dp"
+        android:background="#F0E68C"
+        android:gravity="center"
+        android:text="L\n\A\n\M\n\A\n\I"
+        android:textSize="35sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextText112"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:hint="0"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="10dp"
+        android:background="#333333"
+        android:digits="0123456789"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="phone"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewLamai"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck" />
+
+    <TextView
+        android:id="@+id/textViewPorto"
+        android:layout_width="110dp"
+        android:layout_height="225dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="62dp"
+        android:background="#FF8C00"
+        android:gravity="center"
+        android:text="P\n\O\n\R\n\T\n\O"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextText113"
+        android:layout_width="113dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:hint="0"
+        android:layout_marginEnd="62dp"
+        android:background="#333333"
+        android:digits="0123456789"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="phone"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPorto"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewGrefe"
+        android:layout_width="110dp"
+        android:layout_height="225dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="60dp"
+        android:background="#FF7F50"
+        android:gravity="center"
+        android:text="G\n\R\n\E\n\F\n\E"
+        android:textSize="35sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText112"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextText114"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="10dp"
+        android:hint="0"
+        android:background="#333333"
+        android:digits="0123456789"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="phone"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewGrefe"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck" />
+
+    <TextView
+        android:id="@+id/textViewLime"
+        android:layout_width="110dp"
+        android:layout_height="225dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="58dp"
+        android:layout_marginEnd="62dp"
+        android:background="#ADFF2F"
+        android:gravity="center"
+        android:text="L\n\I\n\M\n\E"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText113"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextText115"
+        android:layout_width="113dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="332dp"
+        android:layout_marginEnd="62dp"
+        android:background="#333333"
+        android:digits="0123456789"
+        android:hint="0"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="phone"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPorto"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

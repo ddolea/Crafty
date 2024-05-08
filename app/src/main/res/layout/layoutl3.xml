@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activityRootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8FBC8F"
+    tools:ignore="ExtraText">
+
+    <Button
+        android:id="@+id/backButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFF99"
+        android:text="Back"
+        android:textColor="@color/black"
+        android:textSize="19sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/backHomeButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFF99"
+        android:text="Home"
+        android:textColor="@color/black"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/textViewPepsiAux"
+        android:layout_width="100dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:background="#D3D3D3"
+        android:gravity="center"
+        android:text="P\nE\nP\nS\n\I"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/backButton5"
+        tools:ignore="HardcodedText,SmallSp" />
+
+    <EditText
+        android:id="@+id/editTextText127"
+        android:layout_width="100dp"
+        android:hint="0"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:background="#333333"
+        android:digits="0123456789"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="phone"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPepsiAux"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewTonicAux"
+        android:layout_width="100dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="49dp"
+        android:background="#D3D3D3"
+        android:gravity="center"
+        android:text="T\nO\nN\nI\nC"
+        android:textSize="10sp"
+        app:layout_constraintStart_toEndOf="@+id/textView7upAux"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText129"
+        tools:ignore="HardcodedText,SmallSp" />
+
+    <EditText
+        android:id="@+id/editTextText131"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="10dp"
+        android:background="#333333"
+        android:digits="0123456789"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="phone"
+        android:hint="0"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/editTextText130"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTonicAux"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewMineralaAux"
+        android:layout_width="100dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="58dp"
+        android:background="#D3D3D3"
+        android:gravity="center"
+        android:text="M\n\I\n\N\nE\nR\nA\nL\nA"
+        android:textSize="10sp"
+        app:layout_constraintStart_toEndOf="@+id/textViewAcqua1.5"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,SmallSp,TextSizeCheck" />
+
+    <EditText
+        android:id="@+id/editTextText129"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="10dp"
+        android:background="#333333"
+        android:digits="0123456789"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="0"
+        android:inputType="phone"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/editTextText128"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMineralaAux"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView7upAux"
+        android:layout_width="100dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="49dp"
+        android:background="#D3D3D3"
+        android:gravity="center"
+        android:text="7\n\nU\nP"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText127"
+        tools:ignore="HardcodedText,SmallSp" />
+
+    <EditText
+        android:id="@+id/editTextText130"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="10dp"
+        android:background="#333333"
+        android:digits="0123456789"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="phone"
+        android:textColor="#FFFFFF"
+        android:hint="0"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7upAux"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewAcqua1.5"
+        android:layout_width="100dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="58dp"
+        android:background="#D3D3D3"
+        android:gravity="center"
+        android:text="P\nL\nA\nT\nA\n\n\1.5"
+        android:textSize="10sp"
+        app:layout_constraintStart_toEndOf="@+id/textViewPepsiAux"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,SmallSp" />
+
+    <EditText
+        android:id="@+id/editTextText128"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="10dp"
+        android:background="#333333"
+        android:digits="0123456789"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="phone"
+        android:textColor="#FFFFFF"
+        android:hint="0"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/editTextText127"
+        app:layout_constraintTop_toBottomOf="@+id/textViewAcqua1.5"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
